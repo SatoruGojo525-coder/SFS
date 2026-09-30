@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ===== SEO: replace for each client ===== -->
+    <title>The Food House | Homestyle Food in Kolkata</title>
+    <meta name="description"
+        content="The Food House serves fresh homestyle meals, thalis, rolls and snacks in Kolkata. See the menu, opening hours and get directions.">
+    <meta name="keywords" content="restaurant Kolkata, homestyle food, Bengali thali, mess, takeaway">
+    <meta property="og:title" content="The Food House | Homestyle Food in Kolkata">
+    <meta property="og:description" content="Homestyle food, made fresh every day.">
+    <meta property="og:type" content="restaurant">
+    <meta property="og:image" content="assets/images/hero.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- REPLACE ALL VALUES BELOW (JSON-LD) -->
+    <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"The Food House","telephone":"+91 98765 43210","servesCuisine":["Bengali","Indian","Homestyle"],"address":{"@type":"PostalAddress","addressLocality":"Kolkata","addressRegion":"West Bengal","addressCountry":"IN"},"openingHours":["Mo-Sa 07:00-22:00","Su 08:00-22:00"],"sameAs":["#"]}
+</script>
+</head>
+
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="nav" id="nav">
+        <a href="#home" class="logo" data-b="name">The Food House</a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"
+            aria-controls="links"><span></span><span></span></button>
+        <nav id="links" class="links" aria-label="Main">
+            <a href="#home">Home</a><a href="#about">About</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a
+                href="#why">Why Us</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+            <a class="btn small" href="#contact">Order / Contact</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <h1>Good food.<br>Good mood.</h1>
+                <p>Freshly prepared food made with care, served with the warmth of home.</p>
+                <div class="row"><a class="btn" href="#menu">Explore Menu</a><a class="btn ghost" data-b-link="maps"
+                        target="_blank" rel="noopener" href="#">Get Directions</a></div>
+                <ul class="badges">
+                    <li>Freshly Prepared</li>
+                    <li>Daily Specials</li>
+                    <li>Takeaway Available</li>
+                </ul>
+            </div>
+            <h3>Freshly Cooked, Home-Style Food</h3>
+            <!-- <img class="hero-img" src="assets/images/hero.svg" alt="A plate of freshly cooked homestyle food"> -->
+        </section>
+
+        <section class="strip" aria-label="Business info">
+            <div><b>Opening Hours</b><span data-b="hours1"></span><span data-b="hours2"></span></div>
+            <div><b>Location</b><span data-b="address"></span></div>
+            <div><b>Call Us</b><a data-b-link="tel" data-b="phone" href="#"></a></div>
+            <div><b>WhatsApp</b><a data-b-link="wa" target="_blank" rel="noopener" href="#">Chat with us</a></div>
+        </section>
+
+        <section class="sec about" id="about">
+            <img src="assets/images/about.svg" alt="Our kitchen preparing the day's meals" loading="lazy">
+            <div>
+                <h2>Food that feels like home</h2>
+                <p>At <span data-b="name"></span>, we believe good food doesn't need to be complicated. Our meals are
+                    prepared fresh every day using carefully selected ingredients, familiar recipes and a whole lot of
+                    care.</p>
+                <ul class="ticks">
+                    <li>Fresh ingredients</li>
+                    <li>Prepared daily</li>
+                    <li>Hygienic kitchen</li>
+                </ul>
+                <!-- ===== STATS: edit data-count ===== -->
+                <dl class="stats">
+                    <div>
+                        <dt><span data-count="10">0</span>+</dt>
+                        <dd>Years of experience</dd>
+                    </div>
+                    <div>
+                        <dt><span data-count="1000">0</span>+</dt>
+                        <dd>Meals served</dd>
+                    </div>
+                    <div>
+                        <dt><span data-count="4.8" data-dec="1">0</span>★</dt>
+                        <dd>Customer rating</dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="sec" id="menu">
+            <h2>Our menu</h2>
+            <p class="sub">Simple food. Honest ingredients. Big flavour.</p>
+            <div class="tabs" role="tablist" id="tabs"></div>
+            <div class="grid" id="menu-grid" role="tabpanel" aria-live="polite"></div>
+            <p class="note">Prices shown are sample prices and can be customized.</p>
+            <a class="btn" data-b-link="wa-special" target="_blank" rel="noopener" href="#">Ask about today's
+                specials</a>
+        </section>
+
+        <section class="special">
+            <img src="assets/images/special.svg" alt="Special chicken thali" loading="lazy">
+            <div>
+                <h2>Today's special</h2>
+                <h3>Special Chicken Thali</h3>
+                <p>Freshly prepared chicken curry served with rice, dal, vegetables and salad.</p>
+                <p class="price">₹199</p>
+                <a class="btn light" data-b-link="wa-special" target="_blank" rel="noopener" href="#">Order /
+                    Enquire</a>
+            </div>
+        </section>
+
+        <section class="sec" id="why">
+            <h2>Why choose us</h2>
+            <div class="why">
+                <article>
+                    <h3>Fresh every day</h3>
+                    <p>Meals are prepared fresh with carefully selected ingredients.</p>
+                </article>
+                <article>
+                    <h3>Homestyle taste</h3>
+                    <p>Comforting flavours inspired by familiar home cooking.</p>
+                </article>
+                <article>
+                    <h3>Clean &amp; hygienic</h3>
+                    <p>We maintain cleanliness throughout food preparation and service.</p>
+                </article>
+                <article>
+                    <h3>Affordable meals</h3>
+                    <p>Good food at prices designed for everyday dining.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="sec" id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery" id="gallery-grid"></div>
+        </section>
+
+        <section class="sec reviews" id="reviews">
+            <h2>What guests say</h2>
+            <p class="sub"><b>4.8 / 5</b> based on customer reviews</p>
+            <!-- PLACEHOLDER REVIEWS: replace with genuine customer reviews -->
+            <div class="rev">
+                <blockquote>
+                    <p>★★★★★ The food tastes homemade and the portions are really satisfying.</p><cite>Rahul M.</cite>
+                </blockquote>
+                <blockquote>
+                    <p>★★★★★ Clean place, friendly service and very reasonable prices.</p><cite>Ananya S.</cite>
+                </blockquote>
+                <blockquote>
+                    <p>★★★★★ One of my regular places for a quick and filling meal.</p><cite>Arjun S.</cite>
+                </blockquote>
+            </div>
+            <p class="note">Sample reviews. To be replaced with real customer feedback.</p>
+        </section>
+
+        <section class="sec find" id="contact">
+            <div>
+                <h2>Find us</h2>
+                <p><b data-b="name"></b><br><span data-b="address"></span></p>
+                <p><span data-b="hours1"></span><br><span data-b="hours2"></span></p>
+                <p><a data-b-link="tel" data-b="phone" href="#"></a></p>
+                <div class="row"><a class="btn" data-b-link="maps" target="_blank" rel="noopener" href="#">Get
+                        Directions</a><a class="btn ghost" data-b-link="tel" href="#">Call Now</a><a class="btn ghost"
+                        data-b-link="wa" target="_blank" rel="noopener" href="#">WhatsApp Us</a></div>
+                <form id="form" novalidate>
+                    <label for="f-name">Name</label><input id="f-name" required autocomplete="name">
+                    <label for="f-phone">Phone number</label><input id="f-phone" type="tel" required autocomplete="tel">
+                    <label for="f-msg">Message</label><textarea id="f-msg" rows="3" required></textarea>
+                    <p class="err" id="err" role="alert"></p>
+                    <button class="btn" type="submit">Send enquiry</button>
+                    <p class="note">Opens WhatsApp with your message ready to send.</p>
+                </form>
+            </div>
+            <!-- MAP: paste Google Maps embed iframe here -->
+            <div class="map" role="img" aria-label="Map placeholder"><span>Google Map goes here</span></div>
+        </section>
+    </main>
+
+    <footer class="foot">
+        <div><b data-b="name"></b>
+            <p data-b="tagline"></p>
+        </div>
+        <div><b>Quick links</b><a href="#home">Home</a><a href="#about">About</a><a href="#menu">Menu</a><a
+                href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
+        <div><b>Contact</b><a data-b-link="tel" data-b="phone" href="#"></a><a data-b-link="wa" href="#">WhatsApp</a><a
+                data-b-link="mail" data-b="email" href="#"></a><span data-b="address"></span></div>
+        <div><b>Follow</b><a data-b-link="insta" href="#">Instagram</a><a data-b-link="fb" href="#">Facebook</a><span
+                data-b="hours1"></span><span data-b="hours2"></span></div>
+        <p class="copy">© 2026 <span data-b="name"></span>. All rights reserved. <small>Website crafted by [YOUR NAME /
+                BRAND]</small></p>
+    </footer>
+
+    <div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+        <button id="lb-x" aria-label="Close">✕</button><button id="lb-p" aria-label="Previous">‹</button>
+        <img id="lb-img" alt=""><button id="lb-n" aria-label="Next">›</button>
+    </div>
+    <button class="top" id="top" aria-label="Back to top" hidden>↑</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
