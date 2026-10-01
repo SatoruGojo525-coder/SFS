@@ -3,8 +3,8 @@ const BUSINESS = {
   name: "The Food House",
   tagline: "Homestyle Food. Made Fresh Every Day.",
   address: "Kolkata, West Bengal",
-  phone: "+91 98765 43210",
-  whatsapp: "919876543210",           // country code + number, no + or spaces
+  phone: "[PHONE NUMBER]",
+  whatsapp: "[PHONE NUMBER]",           // country code + number, no + or spaces
   email: "hello@thefoodhouse.in",
   hours1: "Mon–Sat: 7:00 AM – 10:00 PM",
   hours2: "Sun: 8:00 AM – 10:00 PM"
